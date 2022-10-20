@@ -1,0 +1,65 @@
+
+
+.header-title {
+    text-align: center;
+    margin-top: 55px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* .icon-bar {
+    height: 5px;
+    width: 30px;
+    text-align: center;
+    background-color: yellow;
+} */
+.header-title h2::before {
+    bottom: 89%;
+    left: 50%;
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    background-color: yellow;
+    content: "";
+    margin-left: -30px;
+}
+
+.header-title h2::after {
+    bottom: 89%;
+    left: 50%;
+    position: absolute;
+    width: 20px;
+    height: 5px;
+    background-color: rgb(255, 17, 0);
+    content: "";
+    margin-left: -10px;
+}
+
+.services1 {
+    display: flex;
+    /* display: block; */
+    margin: 120px;
+    /* padding-left: 50px; */
+}
+.services2 {
+    display: flex;
+    /* display: block; */
+    margin: 120px;
+    /* padding-left: 50px; */
+}
+.edu {
+    margin-left: 20px;
+}
+.edu img {
+    text-align: center;
+    margin-left: 175px;
+}
+.h4-bold {
+    text-align: center;
+    margin-right: 18px;
+}
+.text {
+    text-align: center;
+    padding: 30px;
+    margin-top: -30px;
+}
+
